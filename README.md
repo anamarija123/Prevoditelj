@@ -6,7 +6,7 @@ Program treba imati dva polja: s tekstom koji treba prevesti i s prijevodom.
 Također, program mora imati dvije kontrole koje će omogućiti zadavanja jezika izvornog teksta, odnosno jezika prijevoda.
 
 ## GUI
-![Screenshot](prevoditelj.png)
+![alt tag](https://github.com/anamarija123/Prevoditelj/blob/master/prevoditelj.PNG)
 
 GUI ima Combobox gdje se odabire izvorni jezik (jezik sa kojeg se želi prevesti) i Combobox gdje se odabire odredišni jezik (na koji se želi prevesti).
 
@@ -22,4 +22,5 @@ Korišteni su i URL-ovi za komunikaciju se servisom kako bih mogla dohvatiti jez
 Za potrebu projekta korišten je RestSharp za lakše i brže pristupanje servisu putem zahtjeva.
 Korišten je i Newtonsoft.Json. Potreban je za konverziju u .net objekt.
 Primjer koda: 
-```var rijecnik = JsonConvert.DeserializeObject<IDictionary>(odgovor.Content);```
+```var rijecnik = JsonConvert.DeserializeObject<IDictionary>(odgovor.Content);
+```
