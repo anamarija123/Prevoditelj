@@ -21,3 +21,6 @@ Korišteni su i URL-ovi za komunikaciju se servisom kako bih mogla dohvatiti jez
 ## Library
 Za potrebu projekta korišten je RestSharp za lakše i brže pristupanje servisu putem zahtjeva.
 Korišten je i Newtonsoft.Json. Potreban je za konverziju u .net objekt.
+
+
+
